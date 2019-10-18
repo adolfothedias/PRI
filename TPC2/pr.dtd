@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT pr (key_name,title,subtitle?,begin_date,end_date,supervisor,workteam,abstract,deliverables) >
+<!ELEMENT key_name (#PCDATA) >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT subtitle (#PCDATA) >
+<!ELEMENT begin_date (#PCDATA) >
+<!ELEMENT end_date (#PCDATA) >
+<!ELEMENT supervisor EMPTY >
+<!ELEMENT workteam (member) >
+<!ELEMENT member (#PCDATA) >
+<!ELEMENT abstract (#PCDATA|bold|italic)* >
+<!ELEMENT deliverables (deliverable)+ >
+<!ELEMENT deliverable EMPTY >
+<!ELEMENT bold (#PCDATA) >
+<!ELEMENT italic (#PCDATA) >
+
+<!ATTLIST supervisor name CDATA #REQUIRED link CDATA #REQUIRED >
+<!ATTLIST member name CDATA #REQUIRED
+                   email CDATA #REQUIRED
+                   >
+<!ATTLIST deliverable link CDATA #REQUIRED >

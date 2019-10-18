@@ -1,0 +1,10 @@
+a)
+//ARQELEM[contains(./CONCEL,'Amares')]/IDENTI
+b)
+//ARQELEM/CONCEL
+c)
+//ARQELEM[contains(./CONCEL,'Montalegre')]/DESCRI
+d)
+count(//ARQELEM[contains(./CONCEL,'Amares')])
+e)
+//ARQELEM[.//LIGA/@TERMO = 'castro']/IDENTI

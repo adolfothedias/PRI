@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <key_name>PRI2019-A82324-T2</key_name>
+    <title>Realização de um dtd exemplo para um Project Record e realização de fichas inerentes a XPATH</title>
+    <begin_date>30-09-2019</begin_date>
+    <end_date>07-10-2019</end_date>
+    <supervisor name= "José Carlos Ramalho" link="http://algoritmi.uminho.pt/member-profile/jose-carlos-leite-ramalho/0001513/"/>
+    <workteam> 
+        <member name="Carlos Miguel Lopes Sá Barbosa" email="a82324@alunos.uminho.pt"/>
+    </workteam>
+    <abstract>Foi-nos proposto a realização de um dtd para um Project Record, que poderá servir para futuros projectos 
+        (que se encontra em "pr.dtd"), bem como foi proposto a realização de 2 fichas inerentes a XPATH: uma delas é sobre
+        uma agenda de contactos (cuja resolução se encontra em "agenda.txt") e a outra é sobre arqueossítios do nordeste 
+        português (cuja resolução se encontra em "arq.txt").</abstract>
+    <deliverables>
+        <deliverable link="pr.dtd"/>
+        <deliverable link="agenda.txt" />
+        <deliverable link="arq.txt"/>
+    </deliverables>
+</pr>

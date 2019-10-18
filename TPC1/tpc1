@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <style>
+            body {
+                background-color: peachpuff;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title">Keyboard Cat</h1>
+         <table border="2">
+            <tr>
+                <td width="25%" valign="top">
+                    <h3>Índice</h3>
+                    <ol>
+                        <li><a href="#title"> Keyboard Cat</a></li>
+                        <li><a href="#intro"> Introdução </a></li>
+                        <li><a href="#surgimentoVideo"> Surgimento do Vídeo</a></li>
+                        <li><a href="#surgimentoVideo"> Algumas Curiosidades</a></li>
+                        <li><a href="#biblio"> Bibliografia</a></li>
+                    </ol>
+                </td>
+                <td width="75%" valign="top">
+                    
+                    <h2 id="intro" > Introdução </h2>
+                    <p> A Keyboard Cat (pseudónimo de Fatso (1978-1987)) era um gata que se tornou uma celebridade da internet após a divulgação de um video da gata, com uma camisola azul, aparentemente a tocar teclado.</p>
+                    
+                    <a href="https://www.youtube.com/watch?v=J---aiyznGQ"><img src="keyboard-cat.png"/></a>
+                    <p>(Clique na imagem para visualizar o video original)</p>
+
+                    <h2 id="surgimentoVideo">Surgimento do Vídeo </h2>
+                    <p> Em 1984, Charlie Schmidt (dono de Fatso aka Keyboard Cat), achou boa ideia gravar um video que consistia vestir uma gata com uma camisola azul e metê-la em frente ao teclado, enquanto que fingia que estava a tocar o teclado. Mais tarde, quando o YouTube surgiu, decidiu meter esse video com o título "Charlie Schmidt's 'cool cat'" ("A gata fixe do Charlie Schmidt", traduzido para português).</p>
+                    <p> O video contém quase 100 milhões de visualizações e existem inúmeras paródias (tal como, por exemplo, um video acerca das presidenciais de 2012, como se pode verificar <a href="https://www.youtube.com/watch?v=ctDUOS8cnqA">aqui</a>).</p>
+                    
+                    <h2 id="curiosidades">Algumas Curiosidades</h2>
+                    <ol>
+                        <li>Em Junho de 2011, Schmidt meteu um processo judicial contra a marca "Threadless" por causa das tshirts entituladas de "Three Keyboard Cat Moon T-shirts", parodiando a Keyboard Cat com um meme chamado de "Three Wolfs Moon".</li>
+                        <li>Em maio de 2013, os criadores do <a href="https://en.wikipedia.org/wiki/Nyan_Cat">Nyan Cat</a> e da Keyboard Cat processaram a Warnet Brothers por uso ilegal das personagens no jogo Scribblenauts (para a Nintendo DS).</li>
+                    </ol>
+                    
+                    <h2 id="biblio">Bibliografia</h2>
+                    <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/Keyboard_Cat"> Página da Wikipédia de Keyboard Cat</a></li>
+                    <li><a href="https://socialblade.com/youtube/user/chuckieart">Estatísticas acerca de Keyboard Cat</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
