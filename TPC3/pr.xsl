@@ -39,6 +39,7 @@
         <div>
             <h1><xsl:value-of select="keyname"/></h1>
             <h2><xsl:value-of select="title"/></h2>
+            <h2><xsl:value-of select="subtitle"/></h2>
             <h3>Início:<xsl:value-of select="bdate"/> Fim:<xsl:value-of select="edate"/></h3>
             <table>
                 <tr>
