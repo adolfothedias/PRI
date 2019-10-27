@@ -1,0 +1,11 @@
+{
+  "name": "tpc4",
+  "version": "1.0.0",
+  "description": "TPC4 de PRI",
+  "main": "modulo.js",
+  "scripts": {
+    "test": "node modulo"
+  },
+  "author": "adolfothedias",
+  "license": "ISC"
+}
