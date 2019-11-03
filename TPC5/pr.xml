@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <keyname>PRI2019-A82324-T5</keyname>
+        <title>Preparação de um servidor a partir de JavaScript e Express para uma lista de Alunos</title>
+        <bdate>28-10-2019</bdate>
+        <edate>04-11-2019</edate>
+        <supervisor>
+            <name>José Carlos Leite Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A82324</identifier>
+            <name>Carlos Miguel Lopes Sá Barbosa</name>
+            <email>a82324@alunos.uminho.pt</email>
+            <photo path="photo.png"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>Para este trabalho foi proposto pôr em prática o conhecimento adquirido acerca do Express, usando como contexto uma lista de alunos.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="TPC5/app.js">app.js</deliverable>
+        <deliverable path="TPC5/public/javascripts/apagar.js">apagar.js</deliverable>
+        <deliverable path="TPC5/public/javascripts/ver.js">ver.js</deliverable>
+        <deliverable path="TPC5/views/layout.pug">layout.pug</deliverable>
+        <deliverable path="TPC5/views/single.pug">single.pug</deliverable>
+        <deliverable path="TPC5/views/index.pug">index.pug</deliverable>
+    </deliverables>
+</pr>
