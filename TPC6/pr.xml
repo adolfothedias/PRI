@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <keyname>PRI2019-A82324-T6</keyname>
+        <title>Servidor para uma lista de filmes</title>
+        <bdate>04-11-2019</bdate>
+        <edate>11-11-2019</edate>
+        <supervisor>
+            <name>José Carlos Leite Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A82324</identifier>
+            <name>Carlos Miguel Lopes Sá Barbosa</name>
+            <email>a82324@alunos.uminho.pt</email>
+            <photo path="photo.png"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p>Para este trabalho foi proposto fazer uma conexão a uma base de dados do <b>Mongodb</b> e aplicar uma api de dados, formando um servidor de consulta, inserção e eliminação de filmes.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="TPC6/app.js">app.js</deliverable>
+        <deliverable path="TPC6/public/javascripts/apagar.js">apagar.js</deliverable>
+        <deliverable path="TPC6/views/layout.pug">layout.pug</deliverable>
+        <deliverable path="TPC6/views/index.pug">index.pug</deliverable>
+        <deliverable path="TPC6/views/form-filme.pug">form-filme.pug</deliverable>
+        <deliverable path="TPC6/views/lista-filmes.pug">lista-filmes.pug</deliverable>
+        <deliverable path="TPC6/views/single-filme.pug">single-filme.pug</deliverable>
+        <deliverable path="TPC6/routes/api.js">api.js</deliverable>
+        <deliverable path="TPC6/routes/filmes.js">filmes.js (routes)</deliverable>
+        <deliverable path="TPC6/models/filmes.js">filmes.js (models)</deliverable>
+        <deliverable path="TPC6/controllers/filmes.js">filmes.js (controllers)</deliverable>
+    </deliverables>
+</pr>

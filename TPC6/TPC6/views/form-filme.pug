@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  .w3-container
+    h1 Inserção de um aluno
+    form.w3-container(action="/filmes" method="POST")
+        label Título:
+        input.w3-input(type="text" name="title")
+        label Ano:
+        input.w3-input(type="text" name="year")
+        label Elenco (até 2 atores):
+        input.w3-input(type="text" name="cast")
+        input.w3-input(type="text" name="cast")
+        label Género (até 2 Géneros)
+        input.w3-input(type="text" name="genres")
+        input.w3-input(type="text" name="genres")
+        input.w3-input(type="submit" value="Enviar")
+        

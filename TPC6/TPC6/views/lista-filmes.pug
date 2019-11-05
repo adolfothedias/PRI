@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  .w3-container
+    h1 Lista de Filmes de PRI 2019
+    table.w3-table-all
+        tr
+            th Título
+            th Ano
+            th Detalhes
+            th Eliminar
+        each films in lista
+            tr
+                td= films.title
+                td= films.year
+                td
+                    a(href="http://localhost:3069/filmes/" + films._id)
+                        button.w3-button.w3-blue-grey Ver
+                td
+                    button.w3-button.w3-blue-grey(onclick="apagaFilme('" + films._id + "')") Apagar
+
+        

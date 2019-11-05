@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  .w3-container
+    h1 Lista de Filmes de PRI 2019
+    table.w3-table-all
+        tr
+            th Título
+            th Ano
+        tr
+            td= filme.title
+            td= filme.year
+    table.w3-table-all
+        tr
+            th Atores
+        each ator in filme.cast
+            tr
+                td= ator
+    table.w3-table-all
+        tr
+            th Géneros
+        each genero in filme.genres
+            tr
+                td= genero
+
+        
