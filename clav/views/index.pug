@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1 Lista de Topologias
+  .w3-container
+    table.w3-table-all
+        tr
+          th Identificador
+          th Designação
+        each elem in lista
+            tr
+                td= elem.id
+                td= elem.designacao
+                td
+                    a(href="http://localhost:3001/api/" + elem.id)
+                        button.w3-button.w3-blue-grey Detalhes
+                      
+

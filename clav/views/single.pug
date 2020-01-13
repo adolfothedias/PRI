@@ -1,0 +1,66 @@
+extends layout
+
+block content
+    .w3-container
+        h1= info.designacao
+    .w3-container
+        p 
+            b Identificação
+        p= id
+        p 
+            b Sigla
+        p= info.sigla
+        p 
+            b Estado
+        p= info.estado
+    .w3-container
+        h1 Lista de Entidades
+        table.w3-table-all
+            tr
+                th Identificador
+                th Sigla
+                th Designacao
+            each elem in enti
+                tr
+                    td
+                        a(href="http://localhost:3001/api/")
+                            button.w3-button.w3-blue-grey=elem.id
+                    td= elem.sigla
+                    td= elem.designacao
+    .w3-container
+        h1 Processos que é Dono
+        table.w3-table-all
+            tr
+                th Identificador
+                th Título
+                th Código
+            each elem in dono
+                tr
+                    td 
+                        a(href="http://localhost:3001/api/")
+                            button.w3-button.w3-blue-grey=elem.id
+                    td= elem.titulo
+                    td
+                        a(href="http://localhost:3001/api/")
+                            button.w3-button.w3-blue-grey=elem.codigo
+    .w3-container
+        h1 Processos que é Participante
+        table.w3-table-all
+            tr
+                th Identificador
+                th Título
+                th Código
+                th Tipo de Participação
+            each elem in parti
+                tr
+                    td
+                        a(href="http://localhost:3001/api/")
+                            button.w3-button.w3-blue-grey=elem.id
+                    td= elem.titulo
+                    td
+                        a(href="http://localhost:3001/api/")
+                            button.w3-button.w3-blue-grey=elem.codigo
+                    td= elem.tipoPar
+    .w3-container
+        a(href="http://localhost:3001/api/")
+                        button.w3-button.w3-blue-grey Página Inicial
